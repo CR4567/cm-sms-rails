@@ -24,12 +24,12 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   
   if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-    spec.add_runtime_dependency "cm-sms", "~> 0.1"
-    spec.add_runtime_dependency "rails", "~> 4.0"
+    spec.add_runtime_dependency "cm-sms", "~> 0.2"
+    spec.add_runtime_dependency "rails", "~> 5.0"
     spec.add_runtime_dependency "rspec-activejob", "~> 0.4"
   else
-    spec.add_dependency "cm-sms", "~> 0.1"
-    spec.add_dependency "rails", "~> 4.0"
+    spec.add_dependency "cm-sms", "~> 0.2"
+    spec.add_dependency "rails", "~> 5.0"
     spec.add_dependency "rspec-activejob", "~> 0.4"
   end
 end
